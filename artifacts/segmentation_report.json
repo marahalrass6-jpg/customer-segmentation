@@ -1,0 +1,38 @@
+{
+  "transactions_after_cleaning": 805549,
+  "customers": 5878,
+  "candidate_k_range": [
+    2,
+    8
+  ],
+  "selected_k": 2,
+  "selected_silhouette_score": 0.4380483892253417,
+  "segments": [
+    {
+      "cluster": 0,
+      "recency_days_count": 3517,
+      "recency_days_mean": 302.81,
+      "recency_days_median": 297.0,
+      "frequency_count": 3517,
+      "frequency_mean": 2.08,
+      "frequency_median": 2.0,
+      "monetary_value_count": 3517,
+      "monetary_value_mean": 617.96,
+      "monetary_value_median": 417.73,
+      "segment_name": "At-Risk"
+    },
+    {
+      "cluster": 1,
+      "recency_days_count": 2361,
+      "recency_days_mean": 51.5,
+      "recency_days_median": 24.0,
+      "frequency_count": 2361,
+      "frequency_mean": 12.56,
+      "frequency_median": 8.0,
+      "monetary_value_count": 2361,
+      "monetary_value_mean": 6594.68,
+      "monetary_value_median": 2867.0,
+      "segment_name": "High-Value Loyal"
+    }
+  ]
+}
